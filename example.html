@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link href="css/styles.css" rel="stylesheet" type="text/css">
+    <script
+      src="https://code.jquery.com/jquery-3.3.1.js"
+      integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="
+      crossorigin="anonymous"></script>
+      <script>
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css"
+      </script>
+    <script src="js/scripts.js"></script>
+    <title>A fantastical adventure</title>
+  </head>
+  <body>
+    <div class="container">
+      <h1>Hey dude, type in something</h1>
+      <div id="blanks">
+        <form>
+          <div class="form-group">
+            <label for="fullname">Full name</label>
+            <input id="fullname" class="form-control" type="text">
+            <label for="address">Address</label>
+            <input id="address" class="form-control" type="address">
+
+          </div>
+
+          <button type="submit" class="btn">Show me my letter!</button>
+        </form>
+      </div>
+
+      <div id="story">
+        <h1>Your Receipt</h1>
+        <p>Thank you,<span class="fullname"></span>,</p>
+        <p>Your water will be shipped to your house at <span class="Address"></span> </p>
+        <p> Sincerley, Leslie and Nick </p>
+      </div>
+    </div>
+  </body>
+</html>
